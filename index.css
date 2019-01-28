@@ -1,0 +1,749 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+body { font-family: 'Montserrat' , sans-serif; }
+nav .navbar-toggler {
+    border-color: rgb(255,102,203);
+    border: 1.5px solid red;
+}
+nav .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+nav .nav-item a{
+    font-size: 17px;
+	font-weight: 600;
+    color: black;
+}
+nav .nav-item a:hover, .nav-link:active{
+    /*background-image: linear-gradient(to bottom, #ff385b, #f81577, #e60095, #c81eb2, #9a38cb, #ab33c7, #ba2dc2, #c826bc, #fc0e8f, #ff4361, #ff7836, #f8a60d);*/
+    color: #bf1a2a;
+}
+
+.my-nav{
+    padding: 12px !important;
+    padding-left: 10px !important;
+}
+
+
+#home{
+    background-image: url(images/home.jpg);
+    background-size: cover;
+    background-position:center;
+    min-height:110%;
+}
+
+.home-page{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%,-50%);
+    font-weight:600;
+}
+@media only screen and (max-width: 800px){
+    .home-page {
+        padding: 10px;
+    }
+}
+@media only screen and (max-width: 1100px){
+    .home-page {
+        padding: 32px;
+    }
+}    
+@media only screen and (max-width: 1500px){
+    .home-page {
+        padding: 48px;
+
+    }
+}
+
+.first-intro{
+    font-size:2rem;
+    font-weight:600;
+    color: #9c0606;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: .5px;
+}
+.intro-text{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgb(0, 0, 8);
+}
+
+.button-job{
+    padding: 10px;
+    margin: 20px;
+}
+
+ul.social-buttons {
+    margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: #fff;
+    background-color: #222;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    color: #80f2f2;
+    /*background-position: center center;*/
+}
+
+header .fa-twitter::before{
+    padding-left: 50%;
+}
+header .fa-facebook::before {
+    padding-left: 100%;
+}
+header .fa-instagram::before{
+    padding-left: 55%;
+} 
+#aboutus{
+/*
+    background-image: url(images/aboutus-background.jpg);
+    background-size: cover;
+*/  
+    background-color: rgb(230, 230, 230);
+    padding: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+}
+.about-heading{
+    font-size:320%;
+    /* position:absolute; */
+    z-index:20;
+    font-weight:1000px;
+    color:rgb(136, 136, 136);
+    margin-left:10vw;
+    margin-right:10vw;
+    margin-top:10vh;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+.particles-h1{
+    text-align: center;
+    font-size:250%;
+    /* position:absolute; */
+    z-index:20;
+    font-weight:1000px;
+    color:rgb(61, 61, 61);
+    margin-left:5vw;
+    margin-right:5vw;
+    margin-top:5vh;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#about-belief{
+    text-align: center;
+    font-size:60%;
+    color:rgb(90, 90, 90);
+    margin-top:2vh;
+    margin-bottom:2vh;
+}
+#shocking-p {
+    font-size:50%;
+    color:rgb(48, 23, 23);
+    margin-top:1vh;
+    margin-bottom:2vh;
+}
+
+#team{
+    padding: 20px;
+    padding-top: 50px;
+    background-color:#bdbdbd;
+
+}
+.team-heading{
+    text-align: center;
+    color: rgb(85, 85, 85);
+}
+
+/*.member-img{
+     background-image: url(images/TanushreeSharma.png); 
+    border-radius: 50%;
+}*/
+.member1,
+.member2,
+.member3{
+    padding-top: 30px;
+    text-align: center;
+}
+.member1 h4,
+.member2 h4,
+.member3 h4{
+    padding-top: 10px;
+    
+}
+.member-img img{
+    height: 250px;
+    width: 230px;
+    border-radius: 3%;
+    border:solid 2px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.4), 0 6px 20px 0 rgba(80, 80, 80, 0.49);
+}
+
+#advisor{
+    padding: 50px 0 50px 0;
+    color: black;
+    background-color: #edeff2;
+    margin: 1%;
+}
+#advisor .container h1{
+    /*font-family: 'Charm', cursive;*/
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 40px;
+}
+#advisor .container p{
+   
+    font-weight: 600;
+    text-align: center;
+    /*padding-bottom: 30px;*/
+}
+
+#advisor .container .polaroid{
+    padding-top: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(80, 80, 80, 0.19);
+    text-align: center; 
+    transition: transform .2s;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+#advisor .container .polaroid p{
+    padding: 10px 0 0 0;
+    /*font-family: 'Charm', cursive;*/
+    margin-bottom: 0;
+
+}
+#advisor .container .polaroid:hover{
+    transform: scale(1.03);
+}
+#advisor .advisor-icon i{
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    letter-spacing: 10px;
+
+}
+#advisor .advisor-icon i:hover{
+   color: #afc6ea;
+}
+
+
+.box{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+hr{
+    height: 4px;
+    margin-left: 15px;
+    margin-bottom:-3px;
+}
+.hr-primary{
+    background-image: -webkit-linear-gradient(left, rgba(66,133,244,.8), rgba(66, 133, 244,.6), rgba(0,0,0,0));
+}
+/* .about-heading{
+    font-size:320%;
+    position:absolute;
+    z-index:20;
+    font-weight:1000px;
+    color:rgb(255, 246, 246);
+    margin-left:10vw;
+    margin-right:10vw;
+    margin-top:20vh;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+} */
+
+.team-img{
+    border-radius: 50%;
+    height: 50px;
+}
+
+
+.listing{
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+}
+
+/*!
+ * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+
+p {
+    font-size: 14px;
+    line-height: 1.75;
+}
+
+p.large {
+    font-size: 16px;
+}
+
+.img-centered {
+    margin: 0 auto;
+}
+
+.bg-light-gray {
+    background-color: #f7f7f7;
+}
+
+.bg-darkest-gray {
+    background-color: #222;
+}
+
+section {
+    padding: 100px 0;
+}
+
+section h2.section-heading {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+section h3.section-subheading {
+    margin-bottom: 75px;
+    text-transform: none;
+    /* font-family: {{ site.data.template.font.secondary }}; */
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+@media(min-width:768px) {
+    section {
+        padding: 150px 0;
+    }
+}
+
+
+
+img::selection {
+    background: 0 0;
+}
+
+img::-moz-selection {
+    background: 0 0;
+}
+.profile-icon i{
+    font-size: 25px;
+}
+.profile-icon i:hover{
+    color: white;
+    transform: scale(1.1);
+}
+
+
+
+/*----------------*/
+#c1{
+    background-color: white;
+    background-image: url(images/a2.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 20% 45%;
+    padding: 40px 0 20px 0;
+    height: auto;
+    
+}
+#c2{
+    background-color: white;
+    background-image: url(images/a3.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 20% 45%;
+    padding: 40px 0 20px 0;
+    height: auto;
+    
+}
+#c3{
+    background-color: white;
+    background-image: url(images/a1.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 20% 45%;
+    padding: 40px 0 20px 0;
+    height: auto;
+    
+}
+@media only screen and (max-width: 775px){
+    #c1,#c2,#c3 {
+    background-image: none;
+ }
+
+}
+ 
+#c1 h1,
+#c2 h1,
+#c3 h1{
+    text-align: center;
+   /* font-family: 'Charm', cursive;*/
+    font-weight: 600;
+}
+
+
+/*#c1 .container .s1{
+    background-image: url(images/new1.png);
+}*/
+#c1 .container,
+#c2 .container,
+#c3 .container{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+#c1 .content h3,
+#c2 .content h3,
+#c3 .content h3{
+   /* font-family: 'Charm', cursive;*/
+    font-weight: 600;
+    padding: 10px 0 10px 0;
+}
+#c1 .content p,
+#c2 .content p,
+#c3 .content p{
+   /* font-family: 'Charm', cursive;*/
+    font-size: 1.1em;
+    padding: 10px 0 10px 0;
+}
+
+#untold{
+    padding: 50px 0 30px 0;
+    color: black;
+    background-color: white;
+}
+#untold .container h1{
+    /*font-family: 'Charm', cursive;*/
+    font-weight: 600;
+    text-align: center;
+}
+#untold .container p{
+   /* font-family: 'Charm', cursive;*/
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 30px;
+}
+#untold .container .polaroid{
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 0, 0, 0.19);
+    text-align: center; 
+    transition: transform .2s;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+#untold .container .polaroid p{
+    padding: 10px 0 10px 0;
+    /*font-family: 'Charm', cursive;*/
+
+}
+#untold .container .polaroid:hover{
+    transform: scale(1.1);
+}
+
+.untold{
+    padding: 50px 0 30px 0;
+    color: black;
+    background-color: #f7f9fb;
+}
+.untold .container h1{
+    /*font-family: 'Charm', cursive;*/
+    font-weight: 600;
+    text-align: center;
+}
+.untold .container p{
+   /* font-family: 'Charm', cursive;*/
+    font-weight: 600;
+    
+    padding-bottom: 30px;
+}
+.untold .container .polaroid{
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 0, 0, 0.19);
+    text-align: center; 
+    transition: transform .2s;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+.untold .container .polaroid p{
+    padding: 10px 0 10px 0;
+    /*font-family: 'Charm', cursive;*/
+
+}
+.untold .container .polaroid:hover{
+    transform: scale(1.1);
+}
+
+#contact{
+    padding: 40px 0 40px 0;
+    background-color: #585d66;
+    color: white;
+}
+#contact .container h1{
+    /*font-family: 'Charm', cursive;*/
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 1px;
+}
+#contact .container p{
+    /*font-family: 'Charm', cursive;*/
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 40px;
+    color: #80f2f2;
+}
+
+#contact .container h4{
+    /*font-family: 'Charm', cursive;*/
+    font-weight: 600;
+    color: #80f2f2
+}
+#contact .container .address{
+    /*font-family: 'Charm', cursive;*/
+    font-weight: 500;
+    font-size: 1.1em;
+}
+#contact .container .address i{
+    color: #80f2f2;
+    padding-bottom: 10px;
+}
+/*#contact .follow{
+    text-align: right;
+}*/
+#contact .visit-us{
+    padding-left: 60px;
+    
+}
+#contact .follow i{
+	padding-top: 10px;
+    font-size: 1.4em;
+    color: white;
+}
+#contact .follow i:hover{
+    color: #80f2f2;
+}
+
+#contact form{
+    padding-left: 10%;
+    
+}
+#contact form input{
+    background-color: #c9d0dc;
+    font-weight: 600;
+    outline: none;
+    width: 85%;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-indent: 5px;
+    border-color: #80f2f2;
+
+
+}
+#contact form textarea{
+    background-color: #c9d0dc;
+    font-weight: 600;
+    border-color: #80f2f2;
+    outline: none;
+    border-radius: 5px;
+    width: 85%;
+    height: 90px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-indent: 5px;
+    border: 2px solid #80f2f2;;
+    
+    
+}
+#contact form input[type="submit"]{
+    width: 85%;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 50%;
+    color: black;
+
+}
+#contact form .btn:hover{
+    background-color: #80f2f2;
+    
+}
+
+@media only screen and (max-width: 700px){
+	#contact .container .visit-us{
+	    text-align: center;
+	    padding-bottom: 20px;
+        padding-left: 0;
+	}
+    #contact .follow{
+        text-align: center;
+
+    }   
+}
+
+
+#sitemap{
+    background-color: #dee3ed;
+    padding-left: 5px;
+}
+#sitemap .container{
+    padding: 25px ;
+}
+#sitemap .heading a{
+    text-decoration: none;
+    color: black;
+}
+#sitemap .heading-content a{
+    text-decoration: none;
+    color: #404147;
+    font-weight: 600 !important;
+    font-size: 16px;
+}
+#sitemap .heading-content p{
+    color: #404147;
+    font-weight: 600 !important;
+    font-size: 15px;
+}
+#sitemap a:hover{
+    color: #71737f;
+}
+
+
+#sitemap .icon-link a{
+    
+    display: block;
+    
+    font-size: 20px;
+    line-height: 40px;
+    padding-left: 11px;
+
+    
+    
+}
+/*#sitemap .icon-link a:hover{
+    background-color: #71737f;
+    
+}*/
+#sitemap .icon-link i{
+    color: #585d66;
+    text-decoration: none;
+    font-size: 23px;
+    
+}
+#sitemap .icon-link i:hover{
+    color: black;
+    
+}
+#sitemap .address{
+    font-weight: 600;
+}
+
+#sitemap .heading-content .address{
+    /*font-family: 'Charm', cursive;*/
+    color: #404147;
+    font-weight: 600 !important;
+    font-size: 15px;
+}
+#sitemap .heading-content .address i{
+    color: black;
+}
+
+@media only screen and (max-width: 772px){
+	#sitemap .heading h5{
+	    font-size: 14px;
+	}
+	#sitemap .contact h5{
+	    font-size: 14px;
+	}
+
+	#sitemap .heading-content a{
+	    font-size: 13px;
+	}
+    #sitemap .heading-content p{
+        font-size: 13px;
+    }
+	#sitemap .address{
+	    font-size: 13px;
+	}
+    #sitemap .navi{
+        text-align: left;
+    }
+}
+.mail-ico{
+    padding-left: 0 !important;
+}
+
+#copyright{
+    background-color: black;
+    padding: 15px 0 10px 0;
+}
+#copyright p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+#copyright a{
+    text-align: center;
+    
+    color: #80f2f2;
+}
+
+
+
+.typewriter{
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0; /* Gives that scrolling effect as the typing happens */
+    margin-left: 0;
+    /* letter-spacing: .1em; Adjust as needed */
+    animation: 
+      typing 3.5s steps(50, end),
+      blink-caret .75s step-end infinite;
+}
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: transparent; }
+  }  
